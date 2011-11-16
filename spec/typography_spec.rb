@@ -4,6 +4,7 @@ require 'spec_helper'
 describe TypographerHelper, 'with typographer' do
   include ActionView::Helpers::TextHelper
   include ActionView::Helpers::TagHelper
+  include ERB::Util
 
   it "should have t helper" do
     ty('typographer me please').should == 'typographer me&nbsp;please'

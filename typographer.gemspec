@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors = ["Dmitry Shaposhnik", "Anton Versal", "Igor Gladkoborodov", "Pravosud Pavel"]
   s.email = ["dmitry@shaposhnik.name", "ant.ver@gmail.com", "igor@workisfun.ru"]
   s.date = "2011-07-18"
-  s.homepage = "https://github.com/Slotos/typographer"
+  s.homepage = "https://github.com/brain-geek/typographer"
   s.rubyforge_project = ""
   s.name = TypographerHelper::GEM_NAME
   s.version = TypographerHelper::VERSION
@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc"]
   s.rdoc_options = ["--main", "README.rdoc"]
 
-  s.add_dependency "actionpack"
+  s.add_dependency "actionpack", '~> 3.1.0'
   s.add_development_dependency "rspec", ">= 2.0.0"
   s.add_development_dependency "autotest"
 end
