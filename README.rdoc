@@ -1,4 +1,4 @@
-==Typographer {<img src="http://travis-ci.org/brain-geek/typographer" />}[http://travis-ci.org/brain-geek/typographer]
+==Typographer {<img src="https://secure.travis-ci.org/brain-geek/typographer.png" />}[http://travis-ci.org/brain-geek/typographer]
 
 
 Simple plugin to make text more readable by applying some typographic rules to string. It is intended to use for russian texts, but some english typography rules are also supported.
